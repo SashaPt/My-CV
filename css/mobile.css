@@ -1,0 +1,257 @@
+@import url('fonts.css');
+@media screen and (max-width: 375px) {
+  .container {
+    width: 90%;
+  }
+  section {
+    padding-bottom: 18.667vw;
+  }
+  h2 {
+    font-size: 8vw;
+    padding-bottom: 6.667vw;
+  }
+  p {
+    font-size: 5.333vw;
+  }
+  h3 {
+    font-size: 6.4vw;
+  }
+  .header {
+    height: 18.667vw;
+  }
+  .menu-wrapper {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 150;
+    background-color: rgba(255, 255, 255, 0.6);
+    transform: translateX(-100%);
+    cursor: pointer;
+  }
+  .header .menu {
+    width: 80vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+    justify-content: center;
+    background-color: cornflowerblue;
+    border-right: 0.267vw solid white;
+    gap: 8vw;
+    z-index: 200;
+    transform: translateX(-100%);
+    transition: 0.5s;
+    cursor: auto;
+  }
+  .menu-wrapper.open,
+  .header .menu.open {
+    transform: translateX(0);
+  }
+  .burger {
+    height: 9.6vw;
+    display: block;
+    position: fixed;
+    z-index: 500;
+    top: 4.533vw;
+    left: 5.067vw;
+    cursor: pointer;
+  }
+  .burger div {
+    
+    width: 13.333vw;
+    height: 0.533vw;
+    background-color: white;
+  }
+  .burger .center {
+    margin-top: 4.533vw;
+  }
+  .burger .before {
+    margin-bottom: 4.533vw;
+    transition: 0.5s;
+    transform-origin: 0 0;
+  }
+  .burger .after {
+    margin-top: 4.533vw;
+    transition: 0.5s;
+    transform-origin: -4px 0;
+  }
+  .menu-item {
+    font-size: 5.867vw;
+  }
+  .main {
+    padding-top: 21.333vw;
+  }
+  .main .container {
+    flex-direction: column;
+    align-items: unset;
+  }
+  .main-bg {
+    position: absolute;
+    left: 0vw;
+    bottom: -26.667vw;
+    width: 80vw;
+    height: 80vw;
+  }
+  .main-block {
+    gap: 5.333vw;
+    align-items: flex-end;
+    margin-left: 0;
+  }
+  .main-header {
+    font-size: 10.667vw;
+  }
+  .main-button {
+    width: 32vw;
+    padding: 3.2vw;
+    border-radius: 3.2vw;
+    font-size: 4.8vw;
+    z-index: 10;
+  }
+  .main-picture {
+    margin-top: -40vw;
+    margin-left: 0;
+    padding-top: 1.333vw;
+    width: 80vw;
+    border-radius: 5.333vw;
+  }
+  .about {
+    padding-top: 26.667vw;
+  }
+  .about-bg {
+    width: 32vw;
+    bottom: 6.667vw;
+    right: 0;
+  }
+  .about-text {
+    font-size: 5.867vw;
+    line-height: 1.2;
+  }
+  .about-subheader {
+    margin-top: 12vw;
+    padding-bottom: 6.667vw;
+  }
+  .about-skills-list {
+    grid-template-columns: repeat(auto-fit, minmax(80vw, 1fr));
+    gap: 4vw;
+    margin-bottom: 10.667vw;
+  }
+  .about-skills-item {
+    padding: 1.333vw;
+    font-size: 5.333vw;
+  }
+  progress {
+    height: 8vw;
+  }
+  .education-list {
+    gap: 8vw;
+    perspective: 213.333vw;
+  }
+  .education-item {
+    border-radius: 5.333vw;
+    box-shadow: 0 0 1.333vw white;
+    padding: 3.2vw;
+    column-gap: 5.333vw;
+  }
+  .circles {
+    gap: 4vw;
+  }
+  .circle {
+    width: 5.333vw;
+    height: 5.333vw;
+  }
+  .education-block p {
+    margin-top: 5.867vw;
+    line-height: 1.2;
+  }
+  .experience p {
+    margin-top: 5.333vw;
+  }
+  .years {
+    font-size: 4.8vw;
+  }
+  .experience-achievements {
+    font-size: 5.867vw;
+    margin-top: 4vw;
+    margin-bottom: 16vw;
+  }
+  .experience-achievements li {
+    font-size: 5.333vw;
+    margin-top: 4vw;
+    gap: 4vw;
+  }
+  .experience-achievements img {
+    width: 13.333vw;
+  }
+  .projects {
+    grid-template-columns: repeat(auto-fit, minmax(80vw, 1fr));
+    gap: 5.333vw;
+    margin-top: 5.333vw;
+  }
+  .project-item {
+    border-radius: 5.333vw;
+    box-shadow: 0 0 1.333vw white;
+    padding: 3.2vw;
+  }
+  .project-header {
+    font-size: 6.4vw;
+  }
+  .project-description {
+    font-size: 5.867vw;
+    line-height: 1.2;
+  }
+  .project-item ul {
+    margin-top: 4vw;
+    font-size: 5.333vw;
+  }
+  .project-link {
+    width: 42.667vw;
+    padding: 3.2vw;
+    margin: 4vw auto 0;
+    border-radius: 3.2vw;
+    font-size: 4.8vw;
+  }
+  .contacts-wrapper {
+    flex-direction: column;
+  }
+  .contacts-block {
+    position: relative;
+    z-index: 20;
+    gap: 4vw;
+  }
+  .contact-item {
+    gap: 3.2vw;
+  }
+  .contact-icon {
+    width: 12vw;
+  }
+  .contact-text {
+    font-size: 5.333vw;
+  }
+  .contacts-photo {
+    width: 100%;
+  }
+  .slider-arrow {
+    width: 10.667vw;
+  }
+  .slider-dots {
+    margin-top: 4vw;
+    gap: 2.667vw;
+  }
+  .dot {
+    width: 4vw;
+    height: 4vw;
+  }
+  .footer {
+    height: 37.333vw;
+    padding: 4vw 0;
+  }
+  .footer .menu-item {
+    font-size: 4.8vw;
+  }
+  .footer .contact-text {
+    font-size: 4.267vw;
+  }
+}

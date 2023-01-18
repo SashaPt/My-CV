@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Yatra One';
+    font-weight: 400;
+    src: url('../fonts/YatraOne-Regular.ttf');
+}
+@font-face {
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    src: url('../fonts/PlayfairDisplay-Regular.ttf');
+}
+@font-face {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    src: url('../fonts/PlayfairDisplay-Bold.ttf');
+}
+@font-face {
+    font-family: 'Amita';
+    font-weight: 700;
+    src: url('../fonts/Amita-Bold.ttf');
+}

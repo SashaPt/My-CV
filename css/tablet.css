@@ -1,0 +1,213 @@
+@import url('fonts.css');
+@media screen and (max-width: 768px) {
+  .container {
+    width: 85%;
+  }
+  section {
+    padding-bottom: 15.625vw;
+  }
+  h2 {
+    font-size: 7.161vw;
+    padding-bottom: 5.208vw;
+  }
+  p {
+    font-size: 4.557vw;
+  }
+  h3 {
+    font-size: 5.859vw;
+  }
+  .header {
+    height: 10.417vw;
+  }
+  .menu {
+    justify-content: center;
+    height: 10.417vw;
+    gap: 4.557vw;
+  }
+  .menu-item {
+    font-size: 2.865vw;
+  }
+  .main {
+    padding-top: 22.135vw;
+  }
+  .main .container {
+    position: relative;
+    flex-direction: row-reverse;
+    gap: 0;
+  }
+  .main-bg {
+    position: absolute;
+    left: -6.51vw;
+    bottom: -27.344vw;
+    width: 62.5vw;
+    height: 62.5vw;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  .main-block {
+    gap: 6.51vw;
+    align-items: flex-end;
+    margin-left: -18.229vw;
+  }
+  .main-header {
+    font-size: 9.115vw;
+  }
+  .main-button {
+    width: 26.042vw;
+    padding: 1.953vw;
+    border-radius: 2.604vw;
+    font-size: 3.906vw;
+    align-self: flex-end;
+    position: relative;
+  }
+  .main-picture {
+    margin-left: -3.906vw;
+    padding-top: 1.302vw;
+    width: 55.99vw;
+    border-radius: 3.906vw;
+    flex-shrink: 0;
+  }
+  .about {
+    padding-top: 26.042vw;
+  }
+  .about-bg {
+    width: 26.042vw;
+    position: absolute;
+    bottom: -1.302vw;
+    right: 0;
+  }
+  .about-text {
+    font-size: 4.557vw;
+    line-height: 1.2;
+  }
+  .about-subheader {
+    margin-top: 7.813vw;
+    padding-bottom: 5.208vw;
+  }
+  .about-skills-list {
+    grid-template-columns: repeat(auto-fit, minmax(39.063vw, 1fr));
+    gap: 3.906vw;
+    margin-bottom: 6.51vw;
+  }
+  .about-skills-item {
+    padding: 0.651vw;
+    font-size: 5.208vw;
+  }
+  progress {
+    height: 7.161vw;
+  }
+  .education-list {
+    gap: 5.208vw;
+    perspective: 260.417vw;
+  }
+  .education-item {
+    border-radius: 3.906vw;
+    box-shadow: 0 0 0.651vw white;
+    padding: 2.604vw;
+    transition: 0.5s;
+    column-gap: 9.115vw;
+  }
+  .circles {
+    gap: 3.906vw;
+  }
+  .circle {
+    width: 6.51vw;
+    height: 6.51vw;
+  }
+  .education-block p {
+    margin-top: 3.906vw;
+    line-height: 1.2;
+  }
+  .experience p {
+    margin-top: 3.906vw;
+  }
+  .years {
+    font-size: 3.906vw;
+  }
+  .experience-achievements {
+    font-size: 4.557vw;
+    margin-top: 3.906vw;
+    margin-bottom: 10.417vw;
+  }
+  .experience-achievements li {
+    margin-top: 3.906vw;
+    gap: 3.906vw;
+  }
+  .experience-achievements img {
+    width: 10.417vw;
+  }
+  .projects {
+    grid-template-columns: repeat(auto-fit, minmax(65.104vw, 1fr));
+    gap: 5.208vw;
+    margin-top: 5.208vw;
+  }
+  .project-item {
+    border-radius: 3.906vw;
+    box-shadow: 0 0 0.651vw white;
+    padding: 2.604vw;
+  }
+  .project-header {
+    font-size: 5.859vw;
+  }
+  .project-description {
+    font-size: 4.557vw;
+    line-height: 1.2;
+  }
+  .project-item ul {
+    margin-top: 2.604vw;
+    font-size: 3.906vw;
+  }
+  .project-link {
+    width: 39.063vw;
+    padding: 2.604vw;
+    margin: 3.906vw auto 0;
+    border-radius: 2.604vw;
+    font-size: 3.906vw;
+  }
+  .contacts-wrapper {
+    flex-direction: column;
+  }
+  .contacts-block {
+    position: relative;
+    z-index: 20;
+    gap: 3.906vw;
+  }
+  .contact-item {
+    gap: 3.255vw;
+  }
+  .contact-icon {
+    width: 9.115vw;
+  }
+  .contact-text {
+    font-size: 3.906vw;
+  }
+  .contacts-photo {
+    width: 100%;
+  }
+  .slider-arrow {
+    width: 9.115vw;
+  }
+  .slider-dots {
+    margin-top: 2.604vw;
+    gap: 2.604vw;
+  }
+  .dot {
+    width: 3.906vw;
+    height: 3.906vw;
+  }
+  .footer {
+    height: 39.063vw;
+    padding: 5.208vw 0;
+  }
+  .footer .container {
+    gap: 0;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer .contacts-block {
+    height: auto;
+  }
+  .footer .contact-text {
+    font-size: 3.255vw;
+  }
+}
